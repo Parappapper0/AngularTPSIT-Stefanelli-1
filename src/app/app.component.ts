@@ -9,5 +9,12 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'AngularTPSIT-Stefanelli-1';
+  title = 'davide grillo';
+
+  onButtonClick = () => {
+
+    if (this.title == "davide grillo")
+      this.title = "crickus niggus";
+    else this.title = "davide grillo";
+  };
 }
